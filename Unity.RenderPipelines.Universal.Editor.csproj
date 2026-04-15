@@ -139,8 +139,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.12\Editor\ShaderGraph\Targets\UniversalLitSubTarget.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.12\Editor\ScriptableRendererFeatureEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.12\Editor\2D\ShapeEditor\GUIFramework\GenericDefaultControl.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.12\Editor\Overrides\ColorCurvesEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.12\Editor\ShaderScriptableStripper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.12\Editor\Overrides\ColorCurvesEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.12\Editor\Overrides\MotionBlurEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.12\Editor\2D\ShapeEditor\View\CreatePointAction.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.12\Editor\GlobalSettings\UniversalGlobalSettingsEditor.cs" />
@@ -160,8 +160,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.12\Editor\2D\ShaderGraph\Targets\UniversalSpriteLitSubTarget.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.12\Editor\AssetPostProcessors\FBXMaterialDescriptionPreprocessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.12\Editor\Overrides\FilmGrainEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.12\Editor\ShaderGUI\Shaders\UnlitShader.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.12\Editor\Camera\UniversalRenderPipelineCameraUI.Drawers.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.12\Editor\ShaderGUI\Shaders\UnlitShader.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.12\Editor\2D\ShapeEditor\EditorTool\PathEditorTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.12\Editor\2D\ShapeEditor\EditablePath\EditablePath.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.12\Editor\VFXGraph\VFXURPSubOutput.cs" />

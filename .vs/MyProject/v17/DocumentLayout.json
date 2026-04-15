@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "D:\\Unity\\Projects\\MyProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\MyProject\\assets\\_project\\scripts\\gameplay\\player\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\gameplay\\player\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|d:\\unity\\projects\\myproject\\assets\\_project\\scripts\\gameplay\\gameplayui\\uitriggerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\gameplay\\gameplayui\\uitriggerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|d:\\unity\\projects\\myproject\\assets\\_project\\scripts\\gameplay\\player\\controllers\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\MyProject\\assets\\_project\\scripts\\gameplay\\objectinteractions\\voicelog\\voicelogscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\gameplay\\objectinteractions\\voicelog\\voicelogscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\MyProject\\assets\\_project\\scripts\\gameplay\\objectinteractions\\base\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\gameplay\\objectinteractions\\base\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\MyProject\\assets\\_project\\scripts\\gameplay\\objectinteractions\\base\\interactableobjectexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\gameplay\\objectinteractions\\base\\interactableobjectexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\MyProject\\assets\\_project\\scripts\\gameplay\\player\\interactions\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\gameplay\\player\\interactions\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\MyProject\\assets\\_project\\scripts\\gameplay\\player\\controllers\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\gameplay\\player\\controllers\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\MyProject\\assets\\_project\\scripts\\gameplay\\player\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\gameplay\\player\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +38,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CameraController.cs",
-              "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\Player\\Controllers\\CameraController.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Gameplay\\Player\\Controllers\\CameraController.cs",
-              "ToolTip": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\Player\\Controllers\\CameraController.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\Gameplay\\Player\\Controllers\\CameraController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowDYAAAAJAAAA",
+              "DocumentIndex": 3,
+              "Title": "InteractableObjectExample.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\ObjectInteractions\\Base\\InteractableObjectExample.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Gameplay\\ObjectInteractions\\Base\\InteractableObjectExample.cs",
+              "ToolTip": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\ObjectInteractions\\Base\\InteractableObjectExample.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Gameplay\\ObjectInteractions\\Base\\InteractableObjectExample.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T22:04:03.857Z",
+              "WhenOpened": "2026-04-12T03:15:04.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Interactable.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\ObjectInteractions\\Base\\Interactable.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Gameplay\\ObjectInteractions\\Base\\Interactable.cs",
+              "ToolTip": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\ObjectInteractions\\Base\\Interactable.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Gameplay\\ObjectInteractions\\Base\\Interactable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T02:59:00.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VoiceLogScript.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\ObjectInteractions\\VoiceLog\\VoiceLogScript.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Gameplay\\ObjectInteractions\\VoiceLog\\VoiceLogScript.cs",
+              "ToolTip": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\ObjectInteractions\\VoiceLog\\VoiceLogScript.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Gameplay\\ObjectInteractions\\VoiceLog\\VoiceLogScript.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowDgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T23:24:57.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UITriggerScript.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\GameplayUI\\UITriggerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Gameplay\\GameplayUI\\UITriggerScript.cs",
+              "ToolTip": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\GameplayUI\\UITriggerScript.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Gameplay\\GameplayUI\\UITriggerScript.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T23:57:35.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerInteraction.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\Player\\Interactions\\PlayerInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Gameplay\\Player\\Interactions\\PlayerInteraction.cs",
+              "ToolTip": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\Player\\Interactions\\PlayerInteraction.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Gameplay\\Player\\Interactions\\PlayerInteraction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T02:53:50.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\Player\\Controllers\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Gameplay\\Player\\Controllers\\PlayerController.cs",
               "ToolTip": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\Player\\Controllers\\PlayerController.cs",
               "RelativeToolTip": "Assets\\_Project\\Scripts\\Gameplay\\Player\\Controllers\\PlayerController.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAmwHEAAABJAAAA",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAcwEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T22:03:40.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-02T22:03:40.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\Player\\Controllers\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Gameplay\\Player\\Controllers\\CameraController.cs",
+              "ToolTip": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\Player\\Controllers\\CameraController.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\Gameplay\\Player\\Controllers\\CameraController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T22:04:03.857Z"
             }
           ]
         }

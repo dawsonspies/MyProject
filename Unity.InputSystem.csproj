@@ -74,8 +74,8 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Devices\Commands\EnableIMECompositionCommand.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\IInputRuntime.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Plugins\Android\AndroidAxis.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Plugins\XR\Haptics\BufferedRumble.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Plugins\PlayerInput\PlayerInputEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Plugins\XR\Haptics\BufferedRumble.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Plugins\PlayerInput\PlayerInputManagerEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Controls\Processors\StickDeadzoneProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Plugins\UI\MultiplayerEventSystem.cs" />
@@ -121,8 +121,8 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Plugins\Steam\SteamController.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Editor\Internal\SerializedPropertyLinqExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Actions\Interactions\PressInteraction.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\State\IInputStateTypeInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Utilities\DynamicBitfield.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\State\IInputStateTypeInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Controls\AnyKeyControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\State\InputStateBlock.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Editor\UITKAssetEditor\StateContainer.cs" />
@@ -160,8 +160,8 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Actions\InputActionSetupExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Devices\TrackedDevice.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Editor\AssetEditor\InputActionEditorToolbar.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Actions\InputActionReference.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Editor\UITKAssetEditor\Views\CopyPasteHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Actions\InputActionReference.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Controls\ButtonControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Editor\Internal\InputActionSerializationHelpers.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownWindow.cs" />
@@ -169,8 +169,8 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Actions\Composites\AxisComposite.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Plugins\EnhancedTouch\Touch.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Editor\Debugger\InputDebuggerWindow.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Editor\UITKAssetEditor\Views\DropManipulator.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Plugins\PlayerInput\PlayerInputManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Editor\UITKAssetEditor\Views\DropManipulator.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Controls\DiscreteButtonControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Utilities\ExceptionHelpers.cs" />
@@ -357,8 +357,8 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Controls\DeltaControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Plugins\UI\ExtendedSubmitCancelEventData.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Editor\PropertyDrawers\InputActionPropertyDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Devices\Sensor.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Editor\Analytics\InputBuildAnalytic.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Devices\Sensor.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Devices\Haptics\DualMotorRumbleCommand.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Editor\ControlPicker\InputControlPathEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Actions\Composites\ButtonWithOneModifier.cs" />
@@ -393,15 +393,15 @@
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Plugins\WebGL\WebGLSupport.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Utilities\NumberHelpers.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Editor\Analytics\VirtualMouseInputEditorAnalytic.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Editor\PropertyDrawers\GamepadButtonPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Editor\AssetEditor\InputBindingPropertiesView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Editor\PropertyDrawers\GamepadButtonPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Utilities\Observables\SelectObservable.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Editor\Internal\EditorHelpers.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Devices\InputDevice.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Plugins\WebGL\WebGLGamepad.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Events\InputEventTrace.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\InputSystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Plugins\UI\ExtendedAxisEventData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\InputSystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Actions\InputActionTrace.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Events\IInputEventTypeInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.14.2\InputSystem\Controls\TouchPhaseControl.cs" />

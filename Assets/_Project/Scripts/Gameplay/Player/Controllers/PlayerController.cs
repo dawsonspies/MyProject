@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     private InputAction moveAction;
     private InputAction crouchAction;
     private InputAction jumpAction;
+    private InputAction interactAction;
 
     [Header("Movement Speeds")]
     [SerializeField] private float walkSpeed = 2.5f;
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("References")]
     [SerializeField] private Transform cameraTransform;
+    [SerializeField] private PlayerInteraction playerInteractionScript;
 
     private CharacterController controller;
     private Vector3 verticalVelocity;
@@ -42,9 +44,12 @@ public class PlayerController : MonoBehaviour
     {
         controls = new InputSystem();
 
+        playerInteractionScript = GetComponent<PlayerInteraction>();
+
         moveAction = controls.Base.Move;
         crouchAction = controls.Base.Crouch;
         jumpAction = controls.Base.Jump;
+        interactAction = controls.Base.Interact;
 
         controller = GetComponent<CharacterController>();
     }
@@ -63,6 +68,10 @@ public class PlayerController : MonoBehaviour
     {
         if (!lockControls)
         {
+            bool interactPressed = interactAction.WasPressedThisFrame();
+
+            playerInteractionScript.TryInteract(interactPressed);
+
             Vector2 moveInput = moveAction.ReadValue<Vector2>();
             bool isCrouching = crouchAction.IsPressed();
             bool jumpPressed = jumpAction.WasPressedThisFrame();
