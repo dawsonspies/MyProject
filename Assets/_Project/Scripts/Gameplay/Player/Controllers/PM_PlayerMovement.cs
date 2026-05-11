@@ -68,6 +68,8 @@ public class PM_PlayerMovement : MonoBehaviour
             charCont.Move(finalMove * Time.deltaTime);
         }
 
+        print(CURRENTMODE);
+
         currentSpeed = charCont.velocity.magnitude;
     }
 
@@ -87,11 +89,11 @@ public class PM_PlayerMovement : MonoBehaviour
             return;
         }
 
-        if (!grounded)
+/*        if (idk case)
         {
             CURRENTMODE = PM_MovementModes.ZeroGrav;
             return;
-        }
+        }*/
 
         CURRENTMODE = PM_MovementModes.Normal;
     }
@@ -107,7 +109,7 @@ public class PM_PlayerMovement : MonoBehaviour
         right.y = 0f;
         right.Normalize();
 
-        float speed = currentSpeed;
+        float speed;
 
         // Shaky mode handled separately
         if (CURRENTMODE == PM_MovementModes.Shaky)
@@ -126,6 +128,6 @@ public class PM_PlayerMovement : MonoBehaviour
             return move;
         }
 
-        return (forward * input.y + right * input.x) * speed;
+        return (forward * input.y + right * input.x) * normalSpeed;
     }
 }

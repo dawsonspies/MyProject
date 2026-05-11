@@ -14,7 +14,10 @@ public class InputManager : MonoBehaviour
         MOVEACTION = CONTROLS.Base.Move;
         INTERACTACTION = CONTROLS.Base.Interact;
         LOOKACTION = CONTROLS.Base.Look;
+    }
 
+    private void OnEnable()
+    {
         CONTROLS.Enable();
     }
 
