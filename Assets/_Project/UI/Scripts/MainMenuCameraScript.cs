@@ -12,9 +12,9 @@ public class MainMenuCameraScript : MonoBehaviour
     void Update()
     {
         Cursor.lockState = CursorLockMode.Confined;
-        Vector3 lookAt = new Vector3(sun.transform.position.x + offset.x,
-            sun.transform.position.y + offset.y,
-            sun.transform.position.z + offset.z);
+        //Vector3 lookAt = new Vector3(sun.transform.position.x + offset.x,
+        //    sun.transform.position.y + offset.y,
+        //    sun.transform.position.z + offset.z);
 
         //transform.LookAt(lookAt);// used for centering the camera on the sun during development
     }
