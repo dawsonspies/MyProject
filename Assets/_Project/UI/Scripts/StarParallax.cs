@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class Parallax : MonoBehaviour
 {
@@ -18,7 +15,7 @@ public class Parallax : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 mousePos = Mouse.current.delta.ReadValue();
+        Vector2 mousePos = InputManager.UIMOUSEPOSDELTA.ReadValue<Vector2>();
 
         //print("mouse delta: " + mousePos);
 

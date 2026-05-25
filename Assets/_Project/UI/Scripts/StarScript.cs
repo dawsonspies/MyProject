@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class StarScript : MonoBehaviour
 {
     [Header("References")]
-    [SerializeField] private SpriteRenderer sr;
+    [SerializeField] private Image img;
 
     [Header("Customizability")]
     [SerializeField] private float speed;
@@ -27,7 +27,7 @@ public class StarScript : MonoBehaviour
 
     void Start()
     {
-        sr = GetComponent<SpriteRenderer>();
+        img = GetComponent<Image>();
 
         speed = Random.Range(2f, 5f);
         offset = Random.Range(0f, 100f);
@@ -44,7 +44,7 @@ public class StarScript : MonoBehaviour
 
         c.a = Mathf.Lerp(minAlpha, maxAlpha, t);
 
-        sr.color = c;
+        img.color = c;
     }
 
     private Color32 AssignStarColor()

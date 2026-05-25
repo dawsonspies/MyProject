@@ -26,15 +26,15 @@ public class StarSpawner : MonoBehaviour
 
     public void SpawnStars()
     {
-        spawnPaddingX = 0.1f * CAMERA_WIDTH_PX;
-        spawnPaddingY = 0.1f * CAMERA_HEIGHT_PX;
+        spawnPaddingX = 0.1f * GM_CAMERA_WIDTH_PX;
+        spawnPaddingY = 0.1f * GM_CAMERA_HEIGHT_PX;
 
         for (int i = 0; i < starCount; i++)
         {
             GameObject star = Instantiate(
                 starPrefab,
                 CalcSpawnLocation(),
-                Quaternion.Euler(28.3f, 0f, 0f)
+                Quaternion.Euler(0f, 0f, 0f)
             );
 
             StarSize tier = AssignStarSize();
@@ -63,11 +63,8 @@ public class StarSpawner : MonoBehaviour
 
         float z = 10f;
 
-        Vector3 min = cam.ViewportToWorldPoint(new Vector3(-2.5f, -2.5f, z));
-        Vector3 max = cam.ViewportToWorldPoint(new Vector3(2.5f, 2.5f, z));
-
-        float x = Random.Range(min.x, max.x);
-        float y = Random.Range(min.y, max.y);
+        float x = Random.Range(0, GM_CAMERA_WIDTH_PX);
+        float y = Random.Range(0, GM_CAMERA_HEIGHT_PX);
 
         return new Vector3(x, y, z);
     }
