@@ -9,4 +9,5 @@ public static class GameManager
     public static float GM_CAMERA_WIDTH_PX { get; set; }
     public static float GM_CAMERA_HEIGHT_PX { get; set; }
 
+    public static float UI_SMOOTH_SPEED = 3f;
 }

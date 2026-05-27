@@ -5,6 +5,7 @@ public class MainMenuUIScript : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private StarSpawner starSpawnerScript;
+    [SerializeField] private GameObject starDebug;
 
     private void Start()
     {
@@ -17,6 +18,8 @@ public class MainMenuUIScript : MonoBehaviour
 
         //call local references
         starSpawnerScript.SpawnStars();
+
+        starDebug.SetActive(false);
     }
 
     private void Update()

@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\Unity\\Projects\\MyProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\MyProject\\assets\\uibuttonhover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\uibuttonhover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|d:\\unity\\projects\\myproject\\assets\\_project\\scripts\\gameplay\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\gameplay\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\MyProject\\assets\\_project\\ui\\scripts\\mainmenuuiscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\ui\\scripts\\mainmenuuiscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\MyProject\\assets\\_project\\input systems\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\input systems\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\MyProject\\assets\\_project\\ui\\scripts\\starscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\ui\\scripts\\starscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +27,8 @@
       "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\ui\\scripts\\starspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|d:\\unity\\projects\\myproject\\assets\\uibuttonhover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\uibuttonhover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\MyProject\\assets\\_project\\scripts\\gameplay\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\gameplay\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\MyProject\\assets\\_project\\ui\\scripts\\starparallax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\ui\\scripts\\starparallax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\MyProject\\assets\\_project\\input systems\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\input systems\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\MyProject\\assets\\_project\\ui\\scripts\\mainmenuuiscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\ui\\scripts\\mainmenuuiscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\MyProject\\assets\\_project\\scripts\\gameplay\\player\\controllers\\pm_playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,48 +46,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UIButtonHover.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\UIButtonHover.cs",
               "RelativeDocumentMoniker": "Assets\\UIButtonHover.cs",
               "ToolTip": "D:\\Unity\\Projects\\MyProject\\Assets\\UIButtonHover.cs",
               "RelativeToolTip": "Assets\\UIButtonHover.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAFAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwB8AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-24T04:27:42.463Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "MainMenuUIScript.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\UI\\Scripts\\MainMenuUIScript.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\UI\\Scripts\\MainMenuUIScript.cs",
               "ToolTip": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\UI\\Scripts\\MainMenuUIScript.cs",
               "RelativeToolTip": "Assets\\_Project\\UI\\Scripts\\MainMenuUIScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBUAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-18T05:33:15.678Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Gameplay\\GameManager.cs",
               "ToolTip": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\GameManager.cs",
               "RelativeToolTip": "Assets\\_Project\\Scripts\\Gameplay\\GameManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T21:55:48.777Z"
+              "WhenOpened": "2026-05-23T21:55:48.777Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "InputManager.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Input Systems\\InputManager.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Input Systems\\InputManager.cs",
@@ -99,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "StarParallax.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\UI\\Scripts\\StarParallax.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\UI\\Scripts\\StarParallax.cs",
@@ -123,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "StarSpawner.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\UI\\Scripts\\StarSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\UI\\Scripts\\StarSpawner.cs",
@@ -131,12 +132,11 @@
               "RelativeToolTip": "Assets\\_Project\\UI\\Scripts\\StarSpawner.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T02:47:13.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T02:47:13.069Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "StarScript.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\UI\\Scripts\\StarScript.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\UI\\Scripts\\StarScript.cs",
@@ -144,8 +144,7 @@
               "RelativeToolTip": "Assets\\_Project\\UI\\Scripts\\StarScript.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T02:41:26.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T02:41:26.889Z"
             },
             {
               "$type": "Document",
