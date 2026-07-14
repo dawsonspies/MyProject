@@ -1,13 +1,10 @@
 using UnityEngine;
 using static GameManager;
-using UnityEngine.InputSystem;
 
 public enum PM_MovementModes
 {
     Shaky,
     Normal,
-    ZeroGrav, //Only allow movements in directions which are a cirtant distance from an object with a collider,
-              //bean character is now nonexistant and the camera can look wherever.
     Disabled,
     Idle
 }
@@ -17,13 +14,13 @@ public class PM_PlayerMovement : MonoBehaviour
 {
     [Header("MovementModes")]
     [SerializeField] private bool shakeMode = true;
+    [SerializeField] private PM_MovementModes currentMode = CURRENTMODE;
 
     [Header("Movement Speeds")]
-    [SerializeField] private float currentSpeed;
+    [SerializeField] private float currentSpeed; //pretty much for display only
     [SerializeField] private float normalSpeed = 2.5f;
-    [SerializeField] private float floatSpeed = 2.5f;
     [SerializeField] private float shakyBaseSpeed = 1.5f;
-    [SerializeField] private float shakyPercent = 0f;
+    [SerializeField] private float shakeyPercent = 0f;
 
     [Header("References")]
     [SerializeField] private Transform cameraTransform;
@@ -39,9 +36,17 @@ public class PM_PlayerMovement : MonoBehaviour
         charCont = GetComponent<CharacterController>();
     }
 
-    public float GetShakyPercent()
+    public void SetInputLock(bool _locked)
     {
-        return shakyPercent;
+        if (_locked)
+            CURRENTMODE = PM_MovementModes.Disabled;
+        else
+            CURRENTMODE = PM_MovementModes.Normal;
+    }
+
+    public void SetShakey(float _newShakey)
+    {
+        shakeyPercent = _newShakey;
     }
 
     public void SetMovementMode(PM_MovementModes new_mode, float shaky_percent = 25f)
@@ -49,7 +54,7 @@ public class PM_PlayerMovement : MonoBehaviour
         CURRENTMODE = new_mode;
 
         if(CURRENTMODE == PM_MovementModes.Shaky)
-            shakyPercent = shaky_percent;
+            shakeyPercent = shaky_percent;
     }
 
     private void Update()
@@ -58,7 +63,6 @@ public class PM_PlayerMovement : MonoBehaviour
         {
             Vector2 moveInput = InputManager.MOVEACTION.ReadValue<Vector2>();
             bool interactPressed = InputManager.INTERACTACTION.WasPressedThisFrame();
-            Vector2 lookInput = InputManager.LOOKACTION.ReadValue<Vector2>();
 
             ResolveState(moveInput);
 
@@ -67,8 +71,6 @@ public class PM_PlayerMovement : MonoBehaviour
 
             charCont.Move(finalMove * Time.deltaTime);
         }
-
-        print(CURRENTMODE);
 
         currentSpeed = charCont.velocity.magnitude;
     }
@@ -88,12 +90,6 @@ public class PM_PlayerMovement : MonoBehaviour
             CURRENTMODE = PM_MovementModes.Idle;
             return;
         }
-
-/*        if (idk case)
-        {
-            CURRENTMODE = PM_MovementModes.ZeroGrav;
-            return;
-        }*/
 
         CURRENTMODE = PM_MovementModes.Normal;
     }
@@ -116,15 +112,15 @@ public class PM_PlayerMovement : MonoBehaviour
         {
             float baseSpeed = shakyBaseSpeed;
             float limpOscillation = Mathf.Sin(Time.time * 1.5f) * 0.3f;
-            speed = baseSpeed * (0.5f - shakyPercent / 100f + limpOscillation);
+            speed = baseSpeed * (0.5f - shakeyPercent / 100f + limpOscillation);
 
-            float swayAngle = Mathf.Sin(Time.time * 2f) * (shakyPercent / 100f) * 10f;
+            float swayAngle = Mathf.Sin(Time.time * 2f) * (shakeyPercent / 100f) * 10f;
             forward = Quaternion.Euler(0f, swayAngle, 0f) * forward;
 
             float verticalBob = Mathf.Sin(Time.time * 3f) * 0.05f;
             Vector3 move = (forward * input.y + right * input.x).normalized;
             move.y += verticalBob;
-            move *= -speed;
+            move *= speed;
             return move;
         }
 

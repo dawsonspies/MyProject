@@ -40,9 +40,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 429165050108562273}
-  - component: {fileID: 1222551622315065780}
-  - component: {fileID: 4603997220453452618}
+  - component: {fileID: 6265151409752294294}
   - component: {fileID: 1395784776240072293}
+  - component: {fileID: 1222551622315065780}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -68,6 +68,45 @@ Transform:
   - {fileID: 3637583312479761192}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6265151409752294294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3940620376909406562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8715243245815e844a77bf0bb912d3ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeMode: 1
+  currentMode: 2
+  currentSpeed: 0
+  normalSpeed: 2.5
+  shakyBaseSpeed: 1.5
+  shakyPercent: 25
+  cameraTransform: {fileID: 137019935846004624}
+  playerInteractionScript: {fileID: 1395784776240072293}
+  charCont: {fileID: 1222551622315065780}
+--- !u!114 &1395784776240072293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3940620376909406562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd6b7aa7162a0e4a997599151a0530d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactMask:
+    serializedVersion: 2
+    m_Bits: 8
+  cameraTransform: {fileID: 137019935846004624}
+  interactDistance: 3
+  interact: 0
 --- !u!143 &1222551622315065780
 CharacterController:
   m_ObjectHideFlags: 0
@@ -94,45 +133,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4603997220453452618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3940620376909406562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5cc7320244842047904d7e3584396b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lockControls: 0
-  walkSpeed: 2.5
-  crouchSpeed: 1.2
-  gravity: -20
-  jumpForce: 8
-  standingHeight: 1
-  crouchHeight: 0.5
-  cameraTransform: {fileID: 137019935846004624}
-  playerInteractionScript: {fileID: 1395784776240072293}
---- !u!114 &1395784776240072293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3940620376909406562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddd6b7aa7162a0e4a997599151a0530d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactMask:
-    serializedVersion: 2
-    m_Bits: 8
-  cameraTransform: {fileID: 137019935846004624}
-  interactDistance: 3
-  interact: 0
 --- !u!1 &4627041973449725119
 GameObject:
   m_ObjectHideFlags: 0
@@ -284,21 +284,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lockCamera: 0
-  lookAction:
-    m_Name: Look
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 83d8cc05-a3cc-4c3a-a7ce-6ea6b98dfa12
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings: []
-    m_Flags: 0
   upperLookLimit: -80
   lowerLookLimit: 70
   xSens: 10
   ySens: 10
   xRot: 0
   playerTransform: {fileID: 429165050108562273}
+  pm: {fileID: 0}
+  shakeyPercent: 0
 --- !u!1 &4912984823951274030
 GameObject:
   m_ObjectHideFlags: 0

@@ -60,9 +60,11 @@
     <Analyzer Include="D:\Unity\Editors\2022.3.62f3\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\PM_PlayerAudio.cs" />
     <Compile Include="Assets\_Project\Input Systems\InputSystem.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\Act1Scene1Manager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\_Project\Scripts\Gameplay\GameManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
@@ -84,7 +86,6 @@
     <Compile Include="Assets\_Project\UI\Scripts\UITriggerScript.cs" />
     <Compile Include="Assets\SettingsMenuScript.cs" />
     <Compile Include="Assets\_Project\Scripts\Gameplay\ObjectInteractions\Base\InteractableObjectExample.cs" />
-    <Compile Include="Assets\_Project\Scripts\Gameplay\Player\Controllers\PlayerController.cs" />
     <Compile Include="Assets\_Project\Scripts\Gameplay\ObjectInteractions\Base\Interactable.cs" />
     <Compile Include="Assets\_Project\Scripts\Gameplay\Player\Controllers\PM_CameraController.cs" />
     <Compile Include="Assets\_Project\UI\Scripts\StarParallax.cs" />
