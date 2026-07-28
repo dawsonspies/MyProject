@@ -4,8 +4,8 @@ using UnityEngine;
 public class PM_CameraController : MonoBehaviour
 {
     [Header("Inputs")]
-    public bool lockCamera = false;
-    public bool shakeyMode = false;
+    [SerializeField] private bool lockCamera = false;
+    [SerializeField] private bool shakeyMode = false;
 
     [Header("Functionality")]
     [SerializeField] private float upperLookLimit = -80f;
@@ -27,8 +27,14 @@ public class PM_CameraController : MonoBehaviour
             lowerLookLimit = _lowerLookLimit;
     }
 
-    public void SetShakey(float _shakeyPercent)
+    public void SetInputLock(bool _lock)
     {
+        lockCamera = _lock;
+    }
+
+    public void SetShakey(bool _shake, float _shakeyPercent)
+    {
+        shakeyMode = _shake;
         shakeyPercent = _shakeyPercent;
     }
 

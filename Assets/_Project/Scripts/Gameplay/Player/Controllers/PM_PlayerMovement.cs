@@ -62,7 +62,6 @@ public class PM_PlayerMovement : MonoBehaviour
         if (CURRENTMODE != PM_MovementModes.Disabled)
         {
             Vector2 moveInput = InputManager.MOVEACTION.ReadValue<Vector2>();
-            bool interactPressed = InputManager.INTERACTACTION.WasPressedThisFrame();
 
             ResolveState(moveInput);
 
@@ -70,6 +69,17 @@ public class PM_PlayerMovement : MonoBehaviour
             Vector3 finalMove = move + verticalVelocity;
 
             charCont.Move(finalMove * Time.deltaTime);
+
+            //interactions
+            bool interactPressed = InputManager.INTERACTACTION.WasPressedThisFrame();
+
+            if (interactPressed)
+            {
+                playerInteractionScript.TryInteract(true);
+            } else
+            {
+                playerInteractionScript.TryInteract(false);
+            }
         }
 
         currentSpeed = charCont.velocity.magnitude;

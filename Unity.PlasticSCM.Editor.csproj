@@ -310,8 +310,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Inspector\Properties\Changeset\ChangesetPropertiesPanel.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Views\PendingChanges\Changelists\ChangelistMenu.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\UI\Tree\TreeViewItemExtensions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Tool\LaunchInstaller.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\UI\ShowWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Tool\LaunchInstaller.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\UI\EditorDispatcher.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\UI\DrawActionHelpBox.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\VCSBuiltInPlugin.cs" />
@@ -585,8 +585,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\UVCSToolbar\PopupWindow\BranchesList\NoBranchesEmptyState.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\UI\SplitterSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Views\Merge\Developer\DirectoryConflicts\EvilTwinMenu.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Gluon\IncomingChangesNotification.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\CodeEditor\Editing\CaretNavigationCommandHandler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Gluon\IncomingChangesNotification.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\CloudDrive\Workspaces\Tree\CloudWorkspacesTreeViewItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Configuration\CloudEdition\Welcome\WaitingSignInPanel.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Views\Diff\DiffSelection.cs" />
@@ -734,9 +734,9 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Gluon\UpdateReport\UpdateReportListHeaderState.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Views\Labels\Dialogs\CreateLabelDialog.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\UI\UnityStyles.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Views\BranchExplorer\BranchExplorerViewer.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\AssetMenu\AssetUVCSOperations.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Tool\ToolConstants.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Views\BranchExplorer\BranchExplorerViewer.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Views\BranchExplorer\Drawing\Shapes\ChangesetCommentShape.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Views\Merge\Developer\DirectoryConflicts\LoadedTwiceMenu.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Views\CreateWorkspace\CreateWorkspaceView.cs" />

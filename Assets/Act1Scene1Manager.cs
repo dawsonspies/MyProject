@@ -138,8 +138,7 @@ public class Act1Scene1Manager : MonoBehaviour
         playerController.SetInputLock(true);
         playerController.SetShakey(playerShakePercent);
 
-        cameraController.shakeyMode = true;
-        cameraController.SetShakey(camShakePercent);
+        cameraController.SetShakey(true, camShakePercent);
 
         cameraController.SetLookLimits(camUpperLookLimit, camLowerLookLimit);
     }
