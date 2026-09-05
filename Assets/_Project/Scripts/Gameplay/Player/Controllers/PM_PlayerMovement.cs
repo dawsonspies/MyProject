@@ -117,6 +117,13 @@ public class PM_PlayerMovement : MonoBehaviour
 
         float speed;
 
+        Vector3 down = Vector3.down;
+
+        if (charCont.isGrounded)
+        {
+            down *= 98f * Time.deltaTime;
+        }
+
         // Shaky mode handled separately
         if (CURRENTMODE == PM_MovementModes.Shaky)
         {
@@ -134,6 +141,6 @@ public class PM_PlayerMovement : MonoBehaviour
             return move;
         }
 
-        return (forward * input.y + right * input.x) * normalSpeed;
+        return (forward * input.y + right * input.x) * normalSpeed + down;
     }
 }
