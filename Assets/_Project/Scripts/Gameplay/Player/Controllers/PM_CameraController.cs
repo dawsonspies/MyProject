@@ -15,6 +15,8 @@ public class PM_CameraController : MonoBehaviour
     [SerializeField] private float xSens = 100f;
     [SerializeField] private float ySens = 100f;
     [SerializeField] private float xRot = 0f;
+
+    [Header("References")]
     [SerializeField] private Transform playerTransform;
     [SerializeField] private PM_PlayerMovement pm;
     [SerializeField] private float shakeyPercent;

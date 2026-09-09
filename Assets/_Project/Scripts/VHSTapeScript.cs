@@ -11,7 +11,6 @@ public class VHSTapeScript : Interactable
     public override string GetInteractionText()
     {
         return interactionText;
-
     }
 
     public override void Interact(GameObject interactor)
