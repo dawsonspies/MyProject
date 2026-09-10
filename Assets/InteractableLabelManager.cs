@@ -16,6 +16,7 @@ public class InteractableLabelManager : MonoBehaviour
 
     // Maps each active 3D game object to its instantiated 2D UI label
     private Dictionary<GameObject, GameObject> _activeLabels = new Dictionary<GameObject, GameObject>();
+    [SerializeField]private float maxLabelDistance = 5f; // Maximum distance from the camera to show labels
     private Camera _mainCamera;
     private Canvas _parentCanvas;
 
@@ -87,7 +88,9 @@ public class InteractableLabelManager : MonoBehaviour
             // Is it in front of the camera and inside our UI RectTransform boundary?
             bool isInScreenSpaceZone = screenPoint.z > 0 && RectTransformUtility.RectangleContainsScreenPoint(interactUIMask, screenPoint, uiCamera);
 
-            if (isInScreenSpaceZone)
+            float distToCam3D = Vector3.Distance(_mainCamera.transform.position, obj.transform.position);
+
+            if (isInScreenSpaceZone && distToCam3D < maxLabelDistance)
             {
                 // If it just entered the space, create its UI piece
                 if (!_activeLabels.ContainsKey(obj))
