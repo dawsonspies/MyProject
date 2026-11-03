@@ -82,6 +82,7 @@
     <Compile Include="Assets\_Project\Input Systems\InputManager.cs" />
     <Compile Include="Assets\_Project\Art\URP\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\_Project\Scripts\PlayerInventory.cs" />
+    <Compile Include="Assets\MainMenuUICursor.cs" />
     <Compile Include="Assets\_Project\UI\Scripts\MainMenuCameraScript.cs" />
     <Compile Include="Assets\_Project\Scripts\Gameplay\Player\Interactions\PlayerInteraction.cs" />
     <Compile Include="Assets\_Project\Scripts\Gameplay\Player\Controllers\PM_PlayerMovement.cs" />

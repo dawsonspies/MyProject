@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "D:\\Unity\\Projects\\MyProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\MyProject\\assets\\interactablelabelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|d:\\unity\\projects\\myproject\\assets\\mainmenuuicursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\mainmenuuicursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|d:\\unity\\projects\\myproject\\assets\\interactablelabelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\interactablelabelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,11 +15,11 @@
       "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\gameplay\\gameplayui\\interactionui\\interactableobjectlabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|d:\\unity\\projects\\myproject\\assets\\_project\\scripts\\vhstapescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\MyProject\\assets\\_project\\scripts\\vhstapescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\vhstapescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|d:\\unity\\projects\\myproject\\assets\\_project\\scripts\\gameplay\\player\\controllers\\pm_cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|D:\\Unity\\Projects\\MyProject\\assets\\_project\\scripts\\gameplay\\player\\controllers\\pm_cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{306B9622-6474-0D19-83D7-B08F35872B12}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\gameplay\\player\\controllers\\pm_cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -62,11 +66,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "MainMenuUICursor.cs",
+              "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\MainMenuUICursor.cs",
+              "RelativeDocumentMoniker": "Assets\\MainMenuUICursor.cs",
+              "ToolTip": "D:\\Unity\\Projects\\MyProject\\Assets\\MainMenuUICursor.cs",
+              "RelativeToolTip": "Assets\\MainMenuUICursor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T02:28:28.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "VHSTapeScript.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\VHSTapeScript.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\VHSTapeScript.cs",
@@ -74,12 +91,11 @@
               "RelativeToolTip": "Assets\\_Project\\Scripts\\VHSTapeScript.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T19:28:29.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T19:28:29.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InteractableObjectLabel.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\GameplayUI\\InteractionUI\\InteractableObjectLabel.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Gameplay\\GameplayUI\\InteractionUI\\InteractableObjectLabel.cs",
@@ -87,12 +103,11 @@
               "RelativeToolTip": "Assets\\_Project\\Scripts\\Gameplay\\GameplayUI\\InteractionUI\\InteractableObjectLabel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T18:27:25.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T18:27:25.116Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "InteractableLabelManager.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\InteractableLabelManager.cs",
               "RelativeDocumentMoniker": "Assets\\InteractableLabelManager.cs",
@@ -105,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "EndConsoleScript.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\EndConsoleScript.cs",
               "RelativeDocumentMoniker": "Assets\\EndConsoleScript.cs",
@@ -116,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Act1Scene1Manager.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\Act1Scene1Manager.cs",
               "RelativeDocumentMoniker": "Assets\\Act1Scene1Manager.cs",
@@ -128,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PM_CameraController.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\Player\\Controllers\\PM_CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Gameplay\\Player\\Controllers\\PM_CameraController.cs",
@@ -136,12 +151,11 @@
               "RelativeToolTip": "Assets\\_Project\\Scripts\\Gameplay\\Player\\Controllers\\PM_CameraController.cs",
               "ViewState": "AQIAACkAAAAAAAAAAAAwwEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-24T22:42:58.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-24T22:42:58.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Gameplay\\GameManager.cs",
@@ -153,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "InputManager.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Input Systems\\InputManager.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Input Systems\\InputManager.cs",
@@ -165,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PM_PlayerMovement.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\Player\\Controllers\\PM_PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Gameplay\\Player\\Controllers\\PM_PlayerMovement.cs",
@@ -177,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "TVScript.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\TVScript.cs",
               "RelativeDocumentMoniker": "Assets\\TVScript.cs",
@@ -189,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "PlayerInventory.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\PlayerInventory.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerInventory.cs",
@@ -201,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PlayerInteraction.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\_Project\\Scripts\\Gameplay\\Player\\Interactions\\PlayerInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Gameplay\\Player\\Interactions\\PlayerInteraction.cs",
@@ -213,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "VHSTapeScript.cs",
               "DocumentMoniker": "D:\\Unity\\Projects\\MyProject\\Assets\\VHSTapeScript.cs",
               "RelativeDocumentMoniker": "Assets\\VHSTapeScript.cs",
