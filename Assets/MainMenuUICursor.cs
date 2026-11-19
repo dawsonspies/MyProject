@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class MainMenuUICursor : MonoBehaviour
 {
     [Header("Appearance")]
-    [SerializeField] private Transform[] positions;
+    [SerializeField] private Vector3[] positions;
     [SerializeField] private Vector2 size; //w/h
     [SerializeField] private Color32 color;
     [SerializeField] private float flashInterval;
@@ -31,7 +31,7 @@ public class MainMenuUICursor : MonoBehaviour
     private void OnValidate()
     {
         cursorImage.color = color;
-        cursorTransform.position = positions[0];
+        //cursorTransform.position = positions[0];
 
     }
 }
