@@ -1,18 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class MainMenuScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [Header("References")]
+    [SerializeField] private MainMenuUICursor cursor;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (Keyboard.current == null) return;
+
+        // Triggers once on the frame the key is pressed down
+        if (Keyboard.current.downArrowKey.wasPressedThisFrame || Keyboard.current.sKey.wasPressedThisFrame)
+        {
+            cursor.ChangeIndex(-1);
+        }
+        else if (Keyboard.current.upArrowKey.wasPressedThisFrame || Keyboard.current.wKey.wasPressedThisFrame)
+        {
+            cursor.ChangeIndex(1);
+        }
     }
 }

@@ -363,6 +363,42 @@ public partial class @InputSystem: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""UpArrow"",
+                    ""type"": ""Button"",
+                    ""id"": ""0fd364f9-5a0d-4866-9556-54d0fb0fde33"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""DownArrow"",
+                    ""type"": ""Button"",
+                    ""id"": ""c40ce10a-e370-443e-bf30-a4739dd3b1c5"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""LeftArrow"",
+                    ""type"": ""Button"",
+                    ""id"": ""741fcd1a-d4c4-449a-b7d6-d5c07ccf276b"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""RightArrow"",
+                    ""type"": ""Button"",
+                    ""id"": ""df1c05c4-28cb-4dde-9a6f-ea404b0c3e3c"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -409,6 +445,50 @@ public partial class @InputSystem: IInputActionCollection2, IDisposable
                     ""action"": ""DeltaPointerPos"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3c057504-67c4-4f7a-8abf-b9a2557b9621"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""UpArrow"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""30a08398-26a7-4bb7-b2a8-b06e254ede73"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""DownArrow"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b6394470-2c85-4a6b-90b5-d0a99df271f1"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""LeftArrow"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""85abcb32-0044-4e58-94f7-20b0c821f02c"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""RightArrow"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -430,6 +510,10 @@ public partial class @InputSystem: IInputActionCollection2, IDisposable
         m_UI_PointerPosition = m_UI.FindAction("PointerPosition", throwIfNotFound: true);
         m_UI_Back = m_UI.FindAction("Back", throwIfNotFound: true);
         m_UI_DeltaPointerPos = m_UI.FindAction("DeltaPointerPos", throwIfNotFound: true);
+        m_UI_UpArrow = m_UI.FindAction("UpArrow", throwIfNotFound: true);
+        m_UI_DownArrow = m_UI.FindAction("DownArrow", throwIfNotFound: true);
+        m_UI_LeftArrow = m_UI.FindAction("LeftArrow", throwIfNotFound: true);
+        m_UI_RightArrow = m_UI.FindAction("RightArrow", throwIfNotFound: true);
     }
 
     ~@InputSystem()
@@ -677,6 +761,10 @@ public partial class @InputSystem: IInputActionCollection2, IDisposable
     private readonly InputAction m_UI_PointerPosition;
     private readonly InputAction m_UI_Back;
     private readonly InputAction m_UI_DeltaPointerPos;
+    private readonly InputAction m_UI_UpArrow;
+    private readonly InputAction m_UI_DownArrow;
+    private readonly InputAction m_UI_LeftArrow;
+    private readonly InputAction m_UI_RightArrow;
     /// <summary>
     /// Provides access to input actions defined in input action map "UI".
     /// </summary>
@@ -704,6 +792,22 @@ public partial class @InputSystem: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "UI/DeltaPointerPos".
         /// </summary>
         public InputAction @DeltaPointerPos => m_Wrapper.m_UI_DeltaPointerPos;
+        /// <summary>
+        /// Provides access to the underlying input action "UI/UpArrow".
+        /// </summary>
+        public InputAction @UpArrow => m_Wrapper.m_UI_UpArrow;
+        /// <summary>
+        /// Provides access to the underlying input action "UI/DownArrow".
+        /// </summary>
+        public InputAction @DownArrow => m_Wrapper.m_UI_DownArrow;
+        /// <summary>
+        /// Provides access to the underlying input action "UI/LeftArrow".
+        /// </summary>
+        public InputAction @LeftArrow => m_Wrapper.m_UI_LeftArrow;
+        /// <summary>
+        /// Provides access to the underlying input action "UI/RightArrow".
+        /// </summary>
+        public InputAction @RightArrow => m_Wrapper.m_UI_RightArrow;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -742,6 +846,18 @@ public partial class @InputSystem: IInputActionCollection2, IDisposable
             @DeltaPointerPos.started += instance.OnDeltaPointerPos;
             @DeltaPointerPos.performed += instance.OnDeltaPointerPos;
             @DeltaPointerPos.canceled += instance.OnDeltaPointerPos;
+            @UpArrow.started += instance.OnUpArrow;
+            @UpArrow.performed += instance.OnUpArrow;
+            @UpArrow.canceled += instance.OnUpArrow;
+            @DownArrow.started += instance.OnDownArrow;
+            @DownArrow.performed += instance.OnDownArrow;
+            @DownArrow.canceled += instance.OnDownArrow;
+            @LeftArrow.started += instance.OnLeftArrow;
+            @LeftArrow.performed += instance.OnLeftArrow;
+            @LeftArrow.canceled += instance.OnLeftArrow;
+            @RightArrow.started += instance.OnRightArrow;
+            @RightArrow.performed += instance.OnRightArrow;
+            @RightArrow.canceled += instance.OnRightArrow;
         }
 
         /// <summary>
@@ -765,6 +881,18 @@ public partial class @InputSystem: IInputActionCollection2, IDisposable
             @DeltaPointerPos.started -= instance.OnDeltaPointerPos;
             @DeltaPointerPos.performed -= instance.OnDeltaPointerPos;
             @DeltaPointerPos.canceled -= instance.OnDeltaPointerPos;
+            @UpArrow.started -= instance.OnUpArrow;
+            @UpArrow.performed -= instance.OnUpArrow;
+            @UpArrow.canceled -= instance.OnUpArrow;
+            @DownArrow.started -= instance.OnDownArrow;
+            @DownArrow.performed -= instance.OnDownArrow;
+            @DownArrow.canceled -= instance.OnDownArrow;
+            @LeftArrow.started -= instance.OnLeftArrow;
+            @LeftArrow.performed -= instance.OnLeftArrow;
+            @LeftArrow.canceled -= instance.OnLeftArrow;
+            @RightArrow.started -= instance.OnRightArrow;
+            @RightArrow.performed -= instance.OnRightArrow;
+            @RightArrow.canceled -= instance.OnRightArrow;
         }
 
         /// <summary>
@@ -890,5 +1018,33 @@ public partial class @InputSystem: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnDeltaPointerPos(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "UpArrow" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnUpArrow(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "DownArrow" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnDownArrow(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "LeftArrow" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnLeftArrow(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "RightArrow" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnRightArrow(InputAction.CallbackContext context);
     }
 }

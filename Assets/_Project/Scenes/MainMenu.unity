@@ -395,7 +395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.13725491, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -432,6 +432,7 @@ GameObject:
   - component: {fileID: 393021102}
   - component: {fileID: 393021101}
   - component: {fileID: 393021100}
+  - component: {fileID: 393021103}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -524,6 +525,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &393021103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393021098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ffdfcf336977465885ed80aeda0e916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursor: {fileID: 2125461639}
 --- !u!1 &528953347
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,9 +906,10 @@ MonoBehaviour:
   size: {x: 0, y: 0}
   color:
     serializedVersion: 2
-    rgba: 4278190080
+    rgba: 4280549120
   flashInterval: 0
   index: 0
+  maxIndex: 3
   cursorImage: {fileID: 383887618}
   cursorTransform: {fileID: 383887617}
 --- !u!1 &140873054091175018
