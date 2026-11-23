@@ -6,14 +6,13 @@ using UnityEngine.UI;
 public class MainMenuUICursor : MonoBehaviour
 {
     [Header("Appearance")]
-    [SerializeField] private Vector2[] positions;
+    [SerializeField] private RectTransform[] positions;
     [SerializeField] private Vector2 size; //w/h
     [SerializeField] private Color32 color;
     [SerializeField] private float flashInterval;
 
     [Header("Function")]
     [SerializeField] private int index; //0 is top
-    [SerializeField] private int maxIndex = 3; //3 is bottom
 
     [Header("References")]
     [SerializeField] private Image cursorImage;
@@ -22,14 +21,14 @@ public class MainMenuUICursor : MonoBehaviour
     private void Start()
     {
         index = 0;
-    }
+    } 
 
     public void ChangeIndex(int _index)
     {
-        if(index + _index > maxIndex)
+        if(index + _index > positions.Length)
             index = 0;
         else if(index + _index < 0)
-            index = maxIndex;
+            index = positions.Length;
         else
             index += _index;
     }
@@ -41,8 +40,14 @@ public class MainMenuUICursor : MonoBehaviour
 
     private void OnValidate()
     {
+        //change the color
         cursorImage.color = color;
-        //cursorTransform.position = positions[0];
+
+        //change the position
+        cursorTransform.position = positions[index].position;
+
+        //change the size
+        cursorTransform.sizeDelta = new Vector2(size.x/100, size.y/100);
 
     }
 }

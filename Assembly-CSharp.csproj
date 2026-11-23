@@ -95,6 +95,7 @@
     <None Include="Assets\_Project\UI\Fonts\Cormorant_Garamond\README.txt" />
     <None Include="Assets\_Project\UI\Fonts\Crimson_Text\OFL.txt" />
     <None Include="Assets\_Project\UI\Fonts\IBM_Plex_Sans\README.txt" />
+    <None Include="Assets\_Project\UI\Fonts\VT323\OFL.txt" />
     <None Include="Assets\_Project\UI\Fonts\JetBrainsMono-2.304\AUTHORS.txt" />
     <None Include="Assets\_Project\UI\Fonts\Roboto_Mono\OFL.txt" />
     <None Include="Assets\_Project\UI\Fonts\Cormorant_Garamond\OFL.txt" />
